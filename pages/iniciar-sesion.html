@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+
+    <!-- linkeo de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <!--Linkeo de archivos-->
+        <img class="enlace-color-2" src="/imagenes/logo-empresa.jpg" alt="Logo Empresa">
+        <nav>
+            <ul>
+                <li> <a class="enlace-color" href="/index.html">Inicio</a></li>
+                <li> <a class="enlace-color" href="./nosotros.html">Nuestra historia</a></li>
+                <li> <a class="enlace-color" href="./productos.html">Nuestras picadas</a></li>
+                <li> <a class="enlace-color" href="./iniciar-sesion.html">Iniciar sesión</a></li>
+                <li> <a class="enlace-color" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!--fin de linkeo de archivos-->
+    </header>
+    <main>
+
+        <h1>Mi cuenta</h1>
+        <section>
+            <h2>Iniciar sesión</h2>
+            <form action="Form.php" method="post">
+                <label for="Nombre-y-apellido">Nombre y apellido</label>
+                <input type="text" name="Nombre-y-apellido" id="Nombre-y-apellido" placeholder="Juan Perez">
+            </form>
+        </section>
+
+        <section>
+            <h2>Registrate</h2>
+            <form action="Form2.php" method="post">
+                <label for="Nombre-y-apellido">Nombre y apellido</label>
+                <input type="text" name="Nombre-y-apellido" id="Nombre-y-apellido" placeholder="Juan Perez">
+                <input type="submit" value="Registrarme">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!--linkeo de imagenes de redes sociales-->
+        <a target="_blank" href="https://www.instagram.com/">@picadaslastablas</a>
+        <img class="logo-insta" src="/imagenes/instagram-logo.jpg" alt="Instagram">
+
+        <a target="_blank" href="https://www.whatsapp.com/?lang=es_LA">012345678</a>
+        <img class="logo-wpp" src="/imagenes/whatsapp-logo.jpg" alt="whatsapp">
+
+        <a target="_blank" href="https://www.facebook.com/">picadaslastablas</a>
+        <img class="logo-face" src="/imagenes/Facebook-logo.png" alt="facebook">
+
+        <img class="bandera-italia" src="/imagenes/bandera-italia.jpg" alt="italia">
+        <p>Piu avanti!!</p>
+
+        <!--fin de linkeo de imagenes de redes sociales-->
+    </footer>
+
+</body>
+
+</html>
