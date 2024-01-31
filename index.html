@@ -5,22 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picadas las tablas</title>
-<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <!-- linkeo de fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&display=swap"
         rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--Link CSS-->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
+
         <img class="enlace-color-2" src="/imagenes/bandera-italia.jpg" alt="Bandera Italiana">
-        <img class="enlace-color-2" src="/imagenes/logo-empresa.jpg" alt="Logo Empresa">
+        <img class="enlace-color-3" src="/imagenes/logo-empresa.jpg" alt="Logo Empresa">
         <nav>
             <!-- linkeo de archivos -->
             <ul>
@@ -36,41 +38,50 @@
 
     <!-- linkeo de productos destacados -->
     <main>
-       
-        <h1 class=".text-danger"> Productos destacados</h1>
-    
-        <div>
-        <img class="enlace-color-1" src="/imagenes/producto-destacado-1.jpg" alt="Super picada">
-        <p>Super picada</p>
+
+        <h1 class="text-danger"> Productos destacados</h1>
+
+        <div class="contenedor-imagenes">
+            <div>
+                <img class="imagen-principal" src="/imagenes/producto-destacado-1.jpg" alt="Super picada">
+                <p class="destacado-1">Super picada</p>
+            </div>
+            <div>
+                <img class="imagen-principal" src="/imagenes/producto-destacado-2-mar.jpg" alt="Gran picada de mar">
+                <p class="destacado-1">Gran picada de mar</p>
+            </div>
+            <div>
+                <img class="imagen-principal" src="/imagenes/Producto-destacado-3-mar.jpeg" alt="Del mar a tu mesa">
+                <p class="destacado-1">Del mar a tu mesa</p>
+            </div>
         </div>
-        <div>
-        <img class="enlace-color-1" src="/imagenes/producto-destacado-2-mar.jpg" alt="Gran picada de mar">
-        <p>Gran picada de mar</p>
-        </div>
-        <div>
-        <img class="enlace-color-1" src="/imagenes/Producto-destacado-3-mar.jpeg" alt="Del mar a tu mesa">
-        <p>Del mar a tu mesa</p>
-         </div>
-        
     </main>
 
     <!-- linkeo de imagenes de redes sociales -->
-    <footer>
-
-        <a target="_blank" href="https://www.instagram.com/">@picadaslastablas</a>
-        <img class=" logo-insta" src="/imagenes/instagram-logo.jpg" alt="Instagram">
-
-        <a target="_blank" href="https://www.whatsapp.com/?lang=es_LA">012345678</a>
-        <img class=" logo-wpp" src="/imagenes/whatsapp-logo.jpg" alt="whatsapp">
-
-        <a target="_blank" href="https://www.facebook.com/">picadaslastablas</a>
-        <img class="logo-face" src="/imagenes/Facebook-logo.png" alt="facebook">
-
-        <img class="bandera-italia" src="/imagenes/bandera-italia.jpg" alt="italia">
-        <p>Piu avanti!!</p>
-
+    <footer class="footer">
+        <p class="contacto">Contactos</p>
+        <div class="imagenes-footer">
+            <div class="div-footer">
+                <a target="_blank" href="https://www.instagram.com/">@picadaslastablas</a>
+                <img class=" logo-insta" src="/imagenes/instagram-logo.jpg" alt="Instagram">
+            </div>
+            <div class="div-footer">
+                <a target="_blank" href="https://www.whatsapp.com/?lang=es_LA">012345678</a>
+                <img class=" logo-wpp" src="/imagenes/whatsapp-logo.jpg" alt="whatsapp">
+            </div>
+            <div class="div-footer">
+                <a target="_blank" href="https://www.facebook.com/">picadaslastablas</a>
+                <img class="logo-face" src="/imagenes/Facebook-logo.png" alt="facebook">
+            </div>
+            <div class="div-footer">
+                <img class="bandera-italia" src="/imagenes/bandera-italia.jpg" alt="italia">
+                <p>Piu avanti!!</p>
+            </div>
+        </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <!--fin de linkeo de imagenes de redes sociales-->
 </body>
 

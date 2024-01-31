@@ -12,15 +12,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&display=swap"
         rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--Link CSS-->
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
     <!--Linkeo de archivos-->
-    <header>
-        <img class="enlace-color-2" src="/imagenes/logo-empresa.jpg" alt="Logo Empresa">
+    <header class="header">
+        <img class="enlace-color-3" src="/imagenes/logo-empresa.jpg" alt="Logo Empresa">
         <nav>
             <ul>
                 <li> <a class="enlace-color" href="../index.html">Inicio</a></li>
@@ -34,8 +35,9 @@
     <!--fin de linkeo de archivos-->
     <main>
         <section>
-            <h1>¿Cómo llegamos hasta acá?</h1>
-            <p>En 1985, Manuela, Silvia y Alejandro comenzaron un sueño familiar. Alejandro, arquitecto y Silvia,
+            <h1 class="text-danger">¿Cómo llegamos hasta acá?</h1>
+            <p class="historia">En 1985, Manuela, Silvia y Alejandro comenzaron un sueño familiar. Alejandro, arquitecto
+                y Silvia,
                 licenciada en
                 sistemas, ayudados y acompañados por Manuela. Todos amantes de la gastronomía. Con una infancia de
                 familias
@@ -50,23 +52,53 @@
         </section>
     </main>
 
-    <footer>
-        <!--Linkeo de redes sociales-->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../imagenes/bootstrap-1.jpeg" class="d-block w-100" alt="bootstrap-1">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/bootstrap-2.jpeg" class="d-block w-100" alt="bootstrap-2">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/bootstrap-3.jpeg" class="d-block w-100" alt="bootstrap-3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-        <a target="_blank" href="https://www.instagram.com/">@picadaslastablas</a>
-        <img class="logo-insta" src="/imagenes/instagram-logo.jpg" alt="Instagram">
-
-        <a target="_blank" href="https://www.whatsapp.com/?lang=es_LA">012345678</a>
-        <img class="logo-wpp" src="/imagenes/whatsapp-logo.jpg" alt="whatsapp">
-
-        <a target="_blank" href="https://www.facebook.com/">picadaslastablas</a>
-        <img class="logo-face" src="/imagenes/Facebook-logo.png" alt="facebook">
-
-        <img class="bandera-italia" src="/imagenes/bandera-italia.jpg" alt="italia">
-        <p>Piu avanti!!</p>
-
+    <footer class="footer">
+        <p class="contacto">Contactos</p>
+        <div class="imagenes-footer">
+            <div class="div-footer">
+                <a target="_blank" href="https://www.instagram.com/">@picadaslastablas</a>
+                <img class=" logo-insta" src="/imagenes/instagram-logo.jpg" alt="Instagram">
+            </div>
+            <div class="div-footer">
+                <a target="_blank" href="https://www.whatsapp.com/?lang=es_LA">012345678</a>
+                <img class=" logo-wpp" src="/imagenes/whatsapp-logo.jpg" alt="whatsapp">
+            </div>
+            <div class="div-footer">
+                <a target="_blank" href="https://www.facebook.com/">picadaslastablas</a>
+                <img class="logo-face" src="/imagenes/Facebook-logo.png" alt="facebook">
+            </div>
+            <div class="div-footer">
+                <img class="bandera-italia" src="/imagenes/bandera-italia.jpg" alt="italia">
+                <p>Piu avanti!!</p>
+            </div>
+        </div>
     </footer>
     <!--fin de linkeo de imagenes de redes sociales-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
